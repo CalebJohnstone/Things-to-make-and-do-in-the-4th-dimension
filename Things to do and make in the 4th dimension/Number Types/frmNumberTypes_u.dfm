@@ -1,0 +1,66 @@
+object frmNumberTypes: TfrmNumberTypes
+  Left = 0
+  Top = 0
+  Caption = 'Number Types'
+  ClientHeight = 361
+  ClientWidth = 740
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object redOut: TRichEdit
+    Left = 35
+    Top = 0
+    Width = 500
+    Height = 320
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object btnTriangleSqr: TButton
+    Left = 548
+    Top = 9
+    Width = 119
+    Height = 25
+    Caption = 'Triangle = Square'
+    TabOrder = 1
+    OnClick = btnTriangleSqrClick
+  end
+  object btnHappification: TButton
+    Left = 545
+    Top = 40
+    Width = 105
+    Height = 25
+    Caption = 'Happification'
+    TabOrder = 2
+    OnClick = btnHappificationClick
+  end
+  object btnPerfect: TButton
+    Left = 549
+    Top = 82
+    Width = 106
+    Height = 25
+    Caption = 'Perfect numbers'
+    TabOrder = 3
+    OnClick = btnPerfectClick
+  end
+  object btnKeith: TButton
+    Left = 547
+    Top = 115
+    Width = 101
+    Height = 25
+    Caption = 'Keith numbers'
+    TabOrder = 4
+    OnClick = btnKeithClick
+  end
+end
